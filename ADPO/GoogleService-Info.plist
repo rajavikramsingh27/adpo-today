@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>344818365698-780nc04c99be79vok5m5aqngpe42jbtm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.344818365698-780nc04c99be79vok5m5aqngpe42jbtm</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>344818365698-57315drigbbl1kutb3gpkn11i4rkpv0l.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCw7SaVy7b_xs5AuGvTNLVsrQkxB-0S33U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>344818365698</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sdo.adpo.edu.ru</string>
+	<key>PROJECT_ID</key>
+	<string>sdomoodle</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sdomoodle.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:344818365698:ios:272c4e114f7d0ffbe4be1b</string>
+	<key>DATABASE_URL</key>
+	<string>https://sdomoodle.firebaseio.com</string>
+</dict>
+</plist>

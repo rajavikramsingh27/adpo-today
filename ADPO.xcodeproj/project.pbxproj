@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18014E6424C0972D007315C1 /* ProgramsListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18014E6324C0972D007315C1 /* ProgramsListData.swift */; };
+		18014E6624C0A34E007315C1 /* MainPageDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18014E6524C0A34E007315C1 /* MainPageDataManager.swift */; };
+		181681A624C082CB00B5FF6C /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181681A524C082CB00B5FF6C /* MainPageViewController.swift */; };
+		183072EB24C2349600051213 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183072EA24C2349600051213 /* MenuTableViewController.swift */; };
+		18335F6324C7B17B00589AA2 /* CourseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18335F6224C7B17A00589AA2 /* CourseData.swift */; };
+		18335F6524C85C6100589AA2 /* CourseDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18335F6424C85C6100589AA2 /* CourseDataManager.swift */; };
+		18335F6924C8631800589AA2 /* ExpnadableCourseListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18335F6724C8631800589AA2 /* ExpnadableCourseListTableViewCell.swift */; };
+		18335F6A24C8631800589AA2 /* ExpnadableCourseListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18335F6824C8631800589AA2 /* ExpnadableCourseListTableViewCell.xib */; };
+		183941EE24CF547200A1D9CF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183941ED24CF547200A1D9CF /* UserData.swift */; };
+		183941F024CF558500A1D9CF /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183941EF24CF558500A1D9CF /* UserDataManager.swift */; };
+		184D09F224D2ED8300BE5D5D /* ObratniyZvonokViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D09F124D2ED8300BE5D5D /* ObratniyZvonokViewController.swift */; };
+		18985CC724C12B670078D296 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18985CC624C12B670078D296 /* SlideInTransition.swift */; };
+		18C7DB0724BFC02B00153764 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7DB0624BFC02B00153764 /* AuthManager.swift */; };
+		18C7DB0924BFC0E600153764 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7DB0824BFC0E600153764 /* LoginData.swift */; };
+		18D9BAA224BF69A6000295F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9BAA124BF69A6000295F2 /* AppDelegate.swift */; };
+		18D9BAA424BF69A6000295F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9BAA324BF69A6000295F2 /* SceneDelegate.swift */; };
+		18D9BAA624BF69A6000295F2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9BAA524BF69A6000295F2 /* LoginViewController.swift */; };
+		18D9BAA924BF69A6000295F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D9BAA724BF69A6000295F2 /* Main.storyboard */; };
+		18D9BAAB24BF69A7000295F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D9BAAA24BF69A7000295F2 /* Assets.xcassets */; };
+		18D9BAAE24BF69A7000295F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D9BAAC24BF69A7000295F2 /* LaunchScreen.storyboard */; };
+		2204F57224F66CA200111D90 /* ZachetnayaKnigaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2204F57124F66CA200111D90 /* ZachetnayaKnigaViewController.swift */; };
+		2204F57424F6707900111D90 /* ZachotnayaKnigaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2204F57324F6707900111D90 /* ZachotnayaKnigaData.swift */; };
+		2204F57624F6713600111D90 /* ZachotnayaKnigaDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2204F57524F6713600111D90 /* ZachotnayaKnigaDataManager.swift */; };
+		220CC17E24E2982800A75AB1 /* ZabiliParolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220CC17D24E2982800A75AB1 /* ZabiliParolViewController.swift */; };
+		220CC18024E3316000A75AB1 /* ZabiliParolData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220CC17F24E3316000A75AB1 /* ZabiliParolData.swift */; };
+		220CC18224E332D800A75AB1 /* ZabiliParolDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220CC18124E332D800A75AB1 /* ZabiliParolDataManager.swift */; };
+		2242F7D924DC1CA400E7B3EC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242F7D824DC1CA400E7B3EC /* WebViewController.swift */; };
+		224FC31124FFE69F001F15C3 /* GbookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224FC31024FFE69F001F15C3 /* GbookData.swift */; };
+		224FC31324FFE748001F15C3 /* GbookDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224FC31224FFE748001F15C3 /* GbookDataManager.swift */; };
+		2250699A24EC592000B77A05 /* CourseModulesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250699924EC592000B77A05 /* CourseModulesData.swift */; };
+		2250699C24EC5EE500B77A05 /* CourseModulesDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250699B24EC5EE500B77A05 /* CourseModulesDataManager.swift */; };
+		2258236F24FF6C3E00EC9DF9 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258236E24FF6C3E00EC9DF9 /* BookViewController.swift */; };
+		2266457024E6B30E0010F16A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266456F24E6B30E0010F16A /* NetworkManager.swift */; };
+		2273297C24E89CCF00CDAB24 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2273297B24E89CCF00CDAB24 /* Teacher.swift */; };
+		2273297E24E8A49000CDAB24 /* Ifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2273297D24E8A49000CDAB24 /* Ifer.swift */; };
+		227B15B424FE2E45004A401A /* Data Type Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227B15B324FE2E45004A401A /* Data Type Extensions.swift */; };
+		227B15B624FE5577004A401A /* View Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227B15B524FE5577004A401A /* View Extensions.swift */; };
+		227B15B824FE55BC004A401A /* Alert Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227B15B724FE55BC004A401A /* Alert Extensions.swift */; };
+		22819EFD24EB11AB00AFA62C /* ExpandableCourseModulesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22819EFB24EB11AB00AFA62C /* ExpandableCourseModulesListTableViewCell.swift */; };
+		22819EFE24EB11AB00AFA62C /* ExpandableCourseModulesListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22819EFC24EB11AB00AFA62C /* ExpandableCourseModulesListTableViewCell.xib */; };
+		22819F0024EB3F0800AFA62C /* CoursePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22819EFF24EB3F0800AFA62C /* CoursePageViewController.swift */; };
+		22A12D4124F3C49900F3CA8B /* DeviceTokenAnswerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A12D4024F3C49900F3CA8B /* DeviceTokenAnswerData.swift */; };
+		22A12D4324F3C4ED00F3CA8B /* DeviceTokenAnswerDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A12D4224F3C4ED00F3CA8B /* DeviceTokenAnswerDataManager.swift */; };
+		22A12D4524F3EAA900F3CA8B /* ElectronnayaBibliotekaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A12D4424F3EAA900F3CA8B /* ElectronnayaBibliotekaViewController.swift */; };
+		22A12D4724F3FD6700F3CA8B /* ElectronnayaBibliotekaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A12D4624F3FD6600F3CA8B /* ElectronnayaBibliotekaData.swift */; };
+		22A12D4924F3FE7500F3CA8B /* ElectronnayaBibliotekaDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A12D4824F3FE7500F3CA8B /* ElectronnayaBibliotekaDataManager.swift */; };
+		22C1B83424E487D0000F962D /* LearningProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C1B83324E487D0000F962D /* LearningProgram.swift */; };
+		22C1B83624E48AF3000F962D /* LearningCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C1B83524E48AF3000F962D /* LearningCourse.swift */; };
+		22CA8BA624EF2956007FB9A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22CA8BA524EF2956007FB9A8 /* GoogleService-Info.plist */; };
+		22CF779124F5296B008684CB /* WebinarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF779024F5296B008684CB /* WebinarViewController.swift */; };
+		22CF779324F53B6B008684CB /* WebinarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF779224F53B6B008684CB /* WebinarData.swift */; };
+		22CF779524F53DAF008684CB /* WebinarDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF779424F53DAF008684CB /* WebinarDataManager.swift */; };
+		22F5D33624D76B7C001F778E /* ZadatVoprosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5D33524D76B7C001F778E /* ZadatVoprosViewController.swift */; };
+		22F5D33824D77286001F778E /* ZadatVoprosQuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5D33724D77286001F778E /* ZadatVoprosQuestionData.swift */; };
+		22F5D33A24D77329001F778E /* ZadatVoprosQuestionDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5D33924D77329001F778E /* ZadatVoprosQuestionDataManager.swift */; };
+		22F5D33D24D83A76001F778E /* ObratnayaSvyazData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5D33C24D83A76001F778E /* ObratnayaSvyazData.swift */; };
+		22F5D33F24D83D0D001F778E /* ObratnayaSvyazDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5D33E24D83D0D001F778E /* ObratnayaSvyazDataManager.swift */; };
+		22FFC69B24F6FDBB00A6CDBF /* ProgramGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFC69A24F6FDBB00A6CDBF /* ProgramGrade.swift */; };
+		22FFC69D24F6FF6500A6CDBF /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFC69C24F6FF6500A6CDBF /* Grade.swift */; };
+		5EE4C9A3B76E63F447CCCD24 /* Pods_ADPO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E60BE289A66DE5A08F10D /* Pods_ADPO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18014E6324C0972D007315C1 /* ProgramsListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramsListData.swift; sourceTree = "<group>"; };
+		18014E6524C0A34E007315C1 /* MainPageDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageDataManager.swift; sourceTree = "<group>"; };
+		181681A524C082CB00B5FF6C /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		183072EA24C2349600051213 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		18335F6224C7B17A00589AA2 /* CourseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseData.swift; sourceTree = "<group>"; };
+		18335F6424C85C6100589AA2 /* CourseDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDataManager.swift; sourceTree = "<group>"; };
+		18335F6724C8631800589AA2 /* ExpnadableCourseListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpnadableCourseListTableViewCell.swift; sourceTree = "<group>"; };
+		18335F6824C8631800589AA2 /* ExpnadableCourseListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpnadableCourseListTableViewCell.xib; sourceTree = "<group>"; };
+		183941ED24CF547200A1D9CF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		183941EF24CF558500A1D9CF /* UserDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
+		184D09F124D2ED8300BE5D5D /* ObratniyZvonokViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObratniyZvonokViewController.swift; sourceTree = "<group>"; };
+		18985CC624C12B670078D296 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SlideInTransition.swift; path = Model/SlideInTransition.swift; sourceTree = "<group>"; };
+		18C7DB0624BFC02B00153764 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		18C7DB0824BFC0E600153764 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		18D9BA9E24BF69A6000295F2 /* АДПО.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "АДПО.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D9BAA124BF69A6000295F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D9BAA324BF69A6000295F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18D9BAA524BF69A6000295F2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18D9BAA824BF69A6000295F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D9BAAA24BF69A7000295F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D9BAAD24BF69A7000295F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D9BAAF24BF69A7000295F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2204F57124F66CA200111D90 /* ZachetnayaKnigaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZachetnayaKnigaViewController.swift; sourceTree = "<group>"; };
+		2204F57324F6707900111D90 /* ZachotnayaKnigaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZachotnayaKnigaData.swift; sourceTree = "<group>"; };
+		2204F57524F6713600111D90 /* ZachotnayaKnigaDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZachotnayaKnigaDataManager.swift; sourceTree = "<group>"; };
+		220CC17D24E2982800A75AB1 /* ZabiliParolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZabiliParolViewController.swift; sourceTree = "<group>"; };
+		220CC17F24E3316000A75AB1 /* ZabiliParolData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZabiliParolData.swift; sourceTree = "<group>"; };
+		220CC18124E332D800A75AB1 /* ZabiliParolDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZabiliParolDataManager.swift; sourceTree = "<group>"; };
+		2242F7D824DC1CA400E7B3EC /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		224FC31024FFE69F001F15C3 /* GbookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GbookData.swift; sourceTree = "<group>"; };
+		224FC31224FFE748001F15C3 /* GbookDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GbookDataManager.swift; sourceTree = "<group>"; };
+		2250699924EC592000B77A05 /* CourseModulesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModulesData.swift; sourceTree = "<group>"; };
+		2250699B24EC5EE500B77A05 /* CourseModulesDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModulesDataManager.swift; sourceTree = "<group>"; };
+		2258236E24FF6C3E00EC9DF9 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		2266456F24E6B30E0010F16A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2273297B24E89CCF00CDAB24 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		2273297D24E8A49000CDAB24 /* Ifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ifer.swift; sourceTree = "<group>"; };
+		227B15B324FE2E45004A401A /* Data Type Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data Type Extensions.swift"; sourceTree = "<group>"; };
+		227B15B524FE5577004A401A /* View Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View Extensions.swift"; sourceTree = "<group>"; };
+		227B15B724FE55BC004A401A /* Alert Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert Extensions.swift"; sourceTree = "<group>"; };
+		22819EFB24EB11AB00AFA62C /* ExpandableCourseModulesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCourseModulesListTableViewCell.swift; sourceTree = "<group>"; };
+		22819EFC24EB11AB00AFA62C /* ExpandableCourseModulesListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandableCourseModulesListTableViewCell.xib; sourceTree = "<group>"; };
+		22819EFF24EB3F0800AFA62C /* CoursePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePageViewController.swift; sourceTree = "<group>"; };
+		22A12D4024F3C49900F3CA8B /* DeviceTokenAnswerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTokenAnswerData.swift; sourceTree = "<group>"; };
+		22A12D4224F3C4ED00F3CA8B /* DeviceTokenAnswerDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTokenAnswerDataManager.swift; sourceTree = "<group>"; };
+		22A12D4424F3EAA900F3CA8B /* ElectronnayaBibliotekaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronnayaBibliotekaViewController.swift; sourceTree = "<group>"; };
+		22A12D4624F3FD6600F3CA8B /* ElectronnayaBibliotekaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronnayaBibliotekaData.swift; sourceTree = "<group>"; };
+		22A12D4824F3FE7500F3CA8B /* ElectronnayaBibliotekaDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronnayaBibliotekaDataManager.swift; sourceTree = "<group>"; };
+		22C1B83324E487D0000F962D /* LearningProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningProgram.swift; sourceTree = "<group>"; };
+		22C1B83524E48AF3000F962D /* LearningCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCourse.swift; sourceTree = "<group>"; };
+		22CA8BA424EF28AD007FB9A8 /* АДПО.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "АДПО.entitlements"; sourceTree = "<group>"; };
+		22CA8BA524EF2956007FB9A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22CF779024F5296B008684CB /* WebinarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebinarViewController.swift; sourceTree = "<group>"; };
+		22CF779224F53B6B008684CB /* WebinarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebinarData.swift; sourceTree = "<group>"; };
+		22CF779424F53DAF008684CB /* WebinarDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebinarDataManager.swift; sourceTree = "<group>"; };
+		22F5D33524D76B7C001F778E /* ZadatVoprosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadatVoprosViewController.swift; sourceTree = "<group>"; };
+		22F5D33724D77286001F778E /* ZadatVoprosQuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadatVoprosQuestionData.swift; sourceTree = "<group>"; };
+		22F5D33924D77329001F778E /* ZadatVoprosQuestionDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadatVoprosQuestionDataManager.swift; sourceTree = "<group>"; };
+		22F5D33C24D83A76001F778E /* ObratnayaSvyazData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObratnayaSvyazData.swift; sourceTree = "<group>"; };
+		22F5D33E24D83D0D001F778E /* ObratnayaSvyazDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObratnayaSvyazDataManager.swift; sourceTree = "<group>"; };
+		22FFC69A24F6FDBB00A6CDBF /* ProgramGrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramGrade.swift; sourceTree = "<group>"; };
+		22FFC69C24F6FF6500A6CDBF /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
+		26A62B78DCABD9BCDB1C53D4 /* Pods-ADPO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADPO.debug.xcconfig"; path = "Target Support Files/Pods-ADPO/Pods-ADPO.debug.xcconfig"; sourceTree = "<group>"; };
+		87E8B903EB2CF860D3928C78 /* Pods-ADPO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADPO.release.xcconfig"; path = "Target Support Files/Pods-ADPO/Pods-ADPO.release.xcconfig"; sourceTree = "<group>"; };
+		A23E60BE289A66DE5A08F10D /* Pods_ADPO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADPO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D9BA9B24BF69A6000295F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE4C9A3B76E63F447CCCD24 /* Pods_ADPO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181681A224C0825900B5FF6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2266456E24E6B2E90010F16A /* Internet Stuff */,
+				22C1B83224E48795000F962D /* Data Model */,
+				18C7DB0624BFC02B00153764 /* AuthManager.swift */,
+				18014E6524C0A34E007315C1 /* MainPageDataManager.swift */,
+				18335F6424C85C6100589AA2 /* CourseDataManager.swift */,
+				2250699B24EC5EE500B77A05 /* CourseModulesDataManager.swift */,
+				183941EF24CF558500A1D9CF /* UserDataManager.swift */,
+				22F5D33924D77329001F778E /* ZadatVoprosQuestionDataManager.swift */,
+				22F5D33E24D83D0D001F778E /* ObratnayaSvyazDataManager.swift */,
+				220CC18124E332D800A75AB1 /* ZabiliParolDataManager.swift */,
+				22A12D4224F3C4ED00F3CA8B /* DeviceTokenAnswerDataManager.swift */,
+				22A12D4824F3FE7500F3CA8B /* ElectronnayaBibliotekaDataManager.swift */,
+				22CF779424F53DAF008684CB /* WebinarDataManager.swift */,
+				2204F57524F6713600111D90 /* ZachotnayaKnigaDataManager.swift */,
+				224FC31224FFE748001F15C3 /* GbookDataManager.swift */,
+				18C7DB0824BFC0E600153764 /* LoginData.swift */,
+				18014E6324C0972D007315C1 /* ProgramsListData.swift */,
+				18335F6224C7B17A00589AA2 /* CourseData.swift */,
+				2250699924EC592000B77A05 /* CourseModulesData.swift */,
+				183941ED24CF547200A1D9CF /* UserData.swift */,
+				22F5D33724D77286001F778E /* ZadatVoprosQuestionData.swift */,
+				22F5D33C24D83A76001F778E /* ObratnayaSvyazData.swift */,
+				220CC17F24E3316000A75AB1 /* ZabiliParolData.swift */,
+				22A12D4024F3C49900F3CA8B /* DeviceTokenAnswerData.swift */,
+				22A12D4624F3FD6600F3CA8B /* ElectronnayaBibliotekaData.swift */,
+				22CF779224F53B6B008684CB /* WebinarData.swift */,
+				2204F57324F6707900111D90 /* ZachotnayaKnigaData.swift */,
+				224FC31024FFE69F001F15C3 /* GbookData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		181681A324C0827F00B5FF6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22819EFA24EB10BC00AFA62C /* Course Modules list cell */,
+				18335F6624C862CB00589AA2 /* Courses  list cell */,
+				18D9BAA724BF69A6000295F2 /* Main.storyboard */,
+				18D9BAAC24BF69A7000295F2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		181681A424C0828D00B5FF6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				220CC17824E2953A00A75AB1 /* Auth Stuff */,
+				220CC17A24E2956600A75AB1 /* Main Page Stuff */,
+				183072EA24C2349600051213 /* MenuTableViewController.swift */,
+				22A12D4424F3EAA900F3CA8B /* ElectronnayaBibliotekaViewController.swift */,
+				22CF779024F5296B008684CB /* WebinarViewController.swift */,
+				2204F57124F66CA200111D90 /* ZachetnayaKnigaViewController.swift */,
+				2242F7D824DC1CA400E7B3EC /* WebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18335F6624C862CB00589AA2 /* Courses  list cell */ = {
+			isa = PBXGroup;
+			children = (
+				18335F6724C8631800589AA2 /* ExpnadableCourseListTableViewCell.swift */,
+				18335F6824C8631800589AA2 /* ExpnadableCourseListTableViewCell.xib */,
+			);
+			path = "Courses  list cell";
+			sourceTree = "<group>";
+		};
+		18D9BA9524BF69A6000295F2 = {
+			isa = PBXGroup;
+			children = (
+				18D9BAA024BF69A6000295F2 /* ADPO */,
+				18D9BA9F24BF69A6000295F2 /* Products */,
+				318A82034129EB4BE3AE75A5 /* Pods */,
+				F1D1C7862997522B74B86D82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18D9BA9F24BF69A6000295F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D9BA9E24BF69A6000295F2 /* АДПО.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D9BAA024BF69A6000295F2 /* ADPO */ = {
+			isa = PBXGroup;
+			children = (
+				22CA8BA424EF28AD007FB9A8 /* АДПО.entitlements */,
+				18985CC624C12B670078D296 /* SlideInTransition.swift */,
+				227B15B224FE1FF9004A401A /* Extensions */,
+				181681A224C0825900B5FF6C /* Model */,
+				181681A324C0827F00B5FF6C /* View */,
+				181681A424C0828D00B5FF6C /* Controller */,
+				18D9BAA124BF69A6000295F2 /* AppDelegate.swift */,
+				18D9BAA324BF69A6000295F2 /* SceneDelegate.swift */,
+				18D9BAAA24BF69A7000295F2 /* Assets.xcassets */,
+				22CA8BA524EF2956007FB9A8 /* GoogleService-Info.plist */,
+				18D9BAAF24BF69A7000295F2 /* Info.plist */,
+			);
+			path = ADPO;
+			sourceTree = "<group>";
+		};
+		220CC17824E2953A00A75AB1 /* Auth Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				18D9BAA524BF69A6000295F2 /* LoginViewController.swift */,
+				184D09F124D2ED8300BE5D5D /* ObratniyZvonokViewController.swift */,
+				22F5D33524D76B7C001F778E /* ZadatVoprosViewController.swift */,
+				220CC17D24E2982800A75AB1 /* ZabiliParolViewController.swift */,
+			);
+			path = "Auth Stuff";
+			sourceTree = "<group>";
+		};
+		220CC17A24E2956600A75AB1 /* Main Page Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				181681A524C082CB00B5FF6C /* MainPageViewController.swift */,
+				2258237024FF6C5100EC9DF9 /* Course Stuff */,
+			);
+			path = "Main Page Stuff";
+			sourceTree = "<group>";
+		};
+		2258237024FF6C5100EC9DF9 /* Course Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				22819EFF24EB3F0800AFA62C /* CoursePageViewController.swift */,
+				2258236E24FF6C3E00EC9DF9 /* BookViewController.swift */,
+			);
+			path = "Course Stuff";
+			sourceTree = "<group>";
+		};
+		2266456E24E6B2E90010F16A /* Internet Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				2266456F24E6B30E0010F16A /* NetworkManager.swift */,
+			);
+			path = "Internet Stuff";
+			sourceTree = "<group>";
+		};
+		227B15B224FE1FF9004A401A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				227B15B324FE2E45004A401A /* Data Type Extensions.swift */,
+				227B15B524FE5577004A401A /* View Extensions.swift */,
+				227B15B724FE55BC004A401A /* Alert Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		22819EFA24EB10BC00AFA62C /* Course Modules list cell */ = {
+			isa = PBXGroup;
+			children = (
+				22819EFB24EB11AB00AFA62C /* ExpandableCourseModulesListTableViewCell.swift */,
+				22819EFC24EB11AB00AFA62C /* ExpandableCourseModulesListTableViewCell.xib */,
+			);
+			path = "Course Modules list cell";
+			sourceTree = "<group>";
+		};
+		22C1B83224E48795000F962D /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				22C1B83324E487D0000F962D /* LearningProgram.swift */,
+				22FFC69924F6FB2000A6CDBF /* Course Models */,
+				22FFC69A24F6FDBB00A6CDBF /* ProgramGrade.swift */,
+				22FFC69C24F6FF6500A6CDBF /* Grade.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		22FFC69924F6FB2000A6CDBF /* Course Models */ = {
+			isa = PBXGroup;
+			children = (
+				22C1B83524E48AF3000F962D /* LearningCourse.swift */,
+				2273297B24E89CCF00CDAB24 /* Teacher.swift */,
+				2273297D24E8A49000CDAB24 /* Ifer.swift */,
+			);
+			path = "Course Models";
+			sourceTree = "<group>";
+		};
+		318A82034129EB4BE3AE75A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26A62B78DCABD9BCDB1C53D4 /* Pods-ADPO.debug.xcconfig */,
+				87E8B903EB2CF860D3928C78 /* Pods-ADPO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1D1C7862997522B74B86D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A23E60BE289A66DE5A08F10D /* Pods_ADPO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D9BA9D24BF69A6000295F2 /* ADPO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D9BAB224BF69A7000295F2 /* Build configuration list for PBXNativeTarget "ADPO" */;
+			buildPhases = (
+				655611E0633C6F63D9A19BB3 /* [CP] Check Pods Manifest.lock */,
+				18D9BA9A24BF69A6000295F2 /* Sources */,
+				18D9BA9B24BF69A6000295F2 /* Frameworks */,
+				18D9BA9C24BF69A6000295F2 /* Resources */,
+				B367EC9215E54659AC2EE3F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADPO;
+			productName = ADPO;
+			productReference = 18D9BA9E24BF69A6000295F2 /* АДПО.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D9BA9624BF69A6000295F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Sam;
+				TargetAttributes = {
+					18D9BA9D24BF69A6000295F2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 18D9BA9924BF69A6000295F2 /* Build configuration list for PBXProject "ADPO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D9BA9524BF69A6000295F2;
+			productRefGroup = 18D9BA9F24BF69A6000295F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D9BA9D24BF69A6000295F2 /* ADPO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D9BA9C24BF69A6000295F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D9BAAE24BF69A7000295F2 /* LaunchScreen.storyboard in Resources */,
+				22819EFE24EB11AB00AFA62C /* ExpandableCourseModulesListTableViewCell.xib in Resources */,
+				18D9BAAB24BF69A7000295F2 /* Assets.xcassets in Resources */,
+				18335F6A24C8631800589AA2 /* ExpnadableCourseListTableViewCell.xib in Resources */,
+				18D9BAA924BF69A6000295F2 /* Main.storyboard in Resources */,
+				22CA8BA624EF2956007FB9A8 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		655611E0633C6F63D9A19BB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ADPO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B367EC9215E54659AC2EE3F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ADPO/Pods-ADPO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ADPO/Pods-ADPO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ADPO/Pods-ADPO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D9BA9A24BF69A6000295F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FFC69D24F6FF6500A6CDBF /* Grade.swift in Sources */,
+				22C1B83624E48AF3000F962D /* LearningCourse.swift in Sources */,
+				224FC31124FFE69F001F15C3 /* GbookData.swift in Sources */,
+				18D9BAA624BF69A6000295F2 /* LoginViewController.swift in Sources */,
+				224FC31324FFE748001F15C3 /* GbookDataManager.swift in Sources */,
+				2242F7D924DC1CA400E7B3EC /* WebViewController.swift in Sources */,
+				220CC17E24E2982800A75AB1 /* ZabiliParolViewController.swift in Sources */,
+				18335F6924C8631800589AA2 /* ExpnadableCourseListTableViewCell.swift in Sources */,
+				22CF779124F5296B008684CB /* WebinarViewController.swift in Sources */,
+				22FFC69B24F6FDBB00A6CDBF /* ProgramGrade.swift in Sources */,
+				22CF779524F53DAF008684CB /* WebinarDataManager.swift in Sources */,
+				22A12D4124F3C49900F3CA8B /* DeviceTokenAnswerData.swift in Sources */,
+				183941EE24CF547200A1D9CF /* UserData.swift in Sources */,
+				22819F0024EB3F0800AFA62C /* CoursePageViewController.swift in Sources */,
+				183941F024CF558500A1D9CF /* UserDataManager.swift in Sources */,
+				18C7DB0924BFC0E600153764 /* LoginData.swift in Sources */,
+				183072EB24C2349600051213 /* MenuTableViewController.swift in Sources */,
+				22A12D4324F3C4ED00F3CA8B /* DeviceTokenAnswerDataManager.swift in Sources */,
+				18D9BAA224BF69A6000295F2 /* AppDelegate.swift in Sources */,
+				184D09F224D2ED8300BE5D5D /* ObratniyZvonokViewController.swift in Sources */,
+				22CF779324F53B6B008684CB /* WebinarData.swift in Sources */,
+				22A12D4524F3EAA900F3CA8B /* ElectronnayaBibliotekaViewController.swift in Sources */,
+				2250699C24EC5EE500B77A05 /* CourseModulesDataManager.swift in Sources */,
+				2258236F24FF6C3E00EC9DF9 /* BookViewController.swift in Sources */,
+				22A12D4724F3FD6700F3CA8B /* ElectronnayaBibliotekaData.swift in Sources */,
+				227B15B624FE5577004A401A /* View Extensions.swift in Sources */,
+				18014E6624C0A34E007315C1 /* MainPageDataManager.swift in Sources */,
+				18D9BAA424BF69A6000295F2 /* SceneDelegate.swift in Sources */,
+				22F5D33624D76B7C001F778E /* ZadatVoprosViewController.swift in Sources */,
+				22F5D33D24D83A76001F778E /* ObratnayaSvyazData.swift in Sources */,
+				22F5D33824D77286001F778E /* ZadatVoprosQuestionData.swift in Sources */,
+				18014E6424C0972D007315C1 /* ProgramsListData.swift in Sources */,
+				220CC18224E332D800A75AB1 /* ZabiliParolDataManager.swift in Sources */,
+				181681A624C082CB00B5FF6C /* MainPageViewController.swift in Sources */,
+				2204F57624F6713600111D90 /* ZachotnayaKnigaDataManager.swift in Sources */,
+				18335F6524C85C6100589AA2 /* CourseDataManager.swift in Sources */,
+				2204F57224F66CA200111D90 /* ZachetnayaKnigaViewController.swift in Sources */,
+				227B15B424FE2E45004A401A /* Data Type Extensions.swift in Sources */,
+				2204F57424F6707900111D90 /* ZachotnayaKnigaData.swift in Sources */,
+				2250699A24EC592000B77A05 /* CourseModulesData.swift in Sources */,
+				18C7DB0724BFC02B00153764 /* AuthManager.swift in Sources */,
+				220CC18024E3316000A75AB1 /* ZabiliParolData.swift in Sources */,
+				22A12D4924F3FE7500F3CA8B /* ElectronnayaBibliotekaDataManager.swift in Sources */,
+				22819EFD24EB11AB00AFA62C /* ExpandableCourseModulesListTableViewCell.swift in Sources */,
+				227B15B824FE55BC004A401A /* Alert Extensions.swift in Sources */,
+				22F5D33F24D83D0D001F778E /* ObratnayaSvyazDataManager.swift in Sources */,
+				18335F6324C7B17B00589AA2 /* CourseData.swift in Sources */,
+				2266457024E6B30E0010F16A /* NetworkManager.swift in Sources */,
+				18985CC724C12B670078D296 /* SlideInTransition.swift in Sources */,
+				22C1B83424E487D0000F962D /* LearningProgram.swift in Sources */,
+				2273297C24E89CCF00CDAB24 /* Teacher.swift in Sources */,
+				22F5D33A24D77329001F778E /* ZadatVoprosQuestionDataManager.swift in Sources */,
+				2273297E24E8A49000CDAB24 /* Ifer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D9BAA724BF69A6000295F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D9BAA824BF69A6000295F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D9BAAC24BF69A7000295F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D9BAAD24BF69A7000295F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D9BAB024BF69A7000295F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18D9BAB124BF69A7000295F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D9BAB324BF69A7000295F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A62B78DCABD9BCDB1C53D4 /* Pods-ADPO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ADPO/АДПО.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FF6L68HDVB;
+				INFOPLIST_FILE = ADPO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sdo.adpo.edu.ru;
+				PRODUCT_NAME = "АДПО";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18D9BAB424BF69A7000295F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E8B903EB2CF860D3928C78 /* Pods-ADPO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ADPO/АДПО.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FF6L68HDVB;
+				INFOPLIST_FILE = ADPO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sdo.adpo.edu.ru;
+				PRODUCT_NAME = "АДПО";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D9BA9924BF69A6000295F2 /* Build configuration list for PBXProject "ADPO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D9BAB024BF69A7000295F2 /* Debug */,
+				18D9BAB124BF69A7000295F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D9BAB224BF69A7000295F2 /* Build configuration list for PBXNativeTarget "ADPO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D9BAB324BF69A7000295F2 /* Debug */,
+				18D9BAB424BF69A7000295F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D9BA9624BF69A6000295F2 /* Project object */;
+}
